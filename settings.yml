@@ -1,0 +1,26 @@
+tag_count:
+  default: "20"
+
+page_column_count:
+  default: "2"
+
+tag_column_count:
+  default: "3"
+
+categories_column:
+  default: "1"
+
+categories_row:
+  default: "1"
+
+tags_column:
+  default: "1"
+
+tags_row:
+  default: "2"
+
+topics_column:
+  default: "2"
+
+topics_row:
+  default: "1 / span 2"

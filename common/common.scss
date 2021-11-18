@@ -1,0 +1,80 @@
+.categories-and-latest div.column.categories,
+.categories-and-top div.column.categories {
+  margin-right: 0 !important;
+}
+
+.categories-and-latest,
+.categories-and-top {
+  display: grid;
+  gap: 2em;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(#{$page-column-count}, minmax(0, 1fr));
+    grid-template-rows: minmax(0, auto);
+  }
+
+  > * {
+    align-self: start;
+  }
+
+  > .column {
+    grid-column: 1;
+    grid-row: 3;
+    @media screen and (min-width: 768px) {
+      grid-column: #{$topics-column};
+      grid-row: #{$topics-row};
+    }
+  }
+
+  > .column.categories {
+    grid-column: 1;
+    grid-row: 1;
+    @media screen and (min-width: 768px) {
+      grid-column: #{$categories-column};
+      grid-row: #{$categories-row};
+    }
+  }
+
+  > .tag-column {
+    grid-column: 1;
+    grid-row: 2;
+    @media screen and (min-width: 768px) {
+      grid-column: #{$tags-column};
+      grid-row: #{$tags-row};
+    }
+  }
+
+  .more-topics {
+    .pull-right {
+      float: none !important;
+    }
+  }
+
+  .more-tags {
+    margin-top: 1em;
+  }
+}
+
+.categories-tag-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(#{$tag-column-count}, minmax(0, 1fr));
+  gap: 1em;
+
+  li {
+    display: flex;
+    align-items: baseline;
+    .discourse-tag-count {
+      flex: 1 0 auto;
+      margin-left: 0.33em;
+    }
+    .discourse-tag {
+      flex: 0 1 auto;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

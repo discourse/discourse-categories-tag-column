@@ -1,0 +1,19 @@
+{{#conditional-loading-spinner condition=isLoading}}
+
+{{#if sortedTags}}
+  <div aria-role="heading" aria-level="2" class="table-heading">
+    Tags
+  </div>
+  <ul class="categories-tag-list">
+    {{#each sortedTags as |t|}}
+    <li>{{discourse-tag t.id count=t.count}}</li> 
+    {{/each}}
+  </ul>
+  {{#if moreTags}}
+    <div class="more-tags">
+      <a href="/tags" class="btn btn-default">{{i18n "more"}}</a>
+    </div>
+  {{/if}}
+{{/if}}
+
+{{/conditional-loading-spinner}}

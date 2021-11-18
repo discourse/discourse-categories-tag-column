@@ -7,6 +7,9 @@ page_column_count:
 tag_column_count:
   default: "3"
 
+hide_categories_column:
+  default: false
+
 categories_column:
   default: "1"
 

@@ -1,6 +1,5 @@
+import { ajax } from "discourse/lib/ajax";
 import Component from "@ember/component";
-import discourseComputed from "discourse-common/utils/decorators";
-import { action } from "@ember/object";
 import { sort } from "@ember/object/computed";
 
 export default Component.extend({
@@ -14,16 +13,14 @@ export default Component.extend({
   init() {
     this._super(...arguments);
 
-    fetch(`/tags.json`)
-      .then((response) => response.json())
-      .then((tags) => {
-        this.set("tags", tags.tags.slice(0, settings.tag_count));
+    ajax(`/tags.json`).then((tags) => {
+      this.set("tags", tags.tags.slice(0, settings.tag_count));
 
-        if (tags.tags.length > settings.tag_count) {
-          this.set("moreTags", true);
-        }
+      if (tags.tags.length > settings.tag_count) {
+        this.set("moreTags", true);
+      }
 
-        this.set("isLoading", false);
-      });
+      this.set("isLoading", false);
+    });
   },
 });

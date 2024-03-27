@@ -1,6 +1,6 @@
-import { ajax } from "discourse/lib/ajax";
 import Component from "@ember/component";
 import { sort } from "@ember/object/computed";
+import { ajax } from "discourse/lib/ajax";
 
 export default Component.extend({
   tagName: "",

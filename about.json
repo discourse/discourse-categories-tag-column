@@ -1,8 +1,8 @@
 {
-  "about_url": null,
+  "about_url": "https://meta.discourse.org/t/categories-tag-column/212102",
   "license_url": null,
   "assets": {
   },
-  "name": "Categories tag column",
+  "name": "Categories Tag Column",
   "component": true
 }

@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 de:
+  theme_metadata:
+    description: "Fügt eine Tag-Spalte zu deiner /categories Seite hinzu"

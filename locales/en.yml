@@ -10,4 +10,4 @@ en:
       tags_column: 'which column tags appear in, accepts values supported by <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a>'
       tags_row: 'which row tags appear in, accepts values supported by <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a>'
       topics_column: 'which column top or latest topics appear in, accepts values supported by <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a>'
-      topics_row: 'which row top or latest topics appear in, accepts values supported by <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a>'
+      topics_row: 'which row top or latest topics appear in, accepts values supported by <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a>'

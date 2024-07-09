@@ -1,6 +1,6 @@
 {
   "about_url": "https://meta.discourse.org/t/categories-tag-column/212102",
-  "license_url": null,
+  "license_url": "https://github.com/discourse/discourse-categories-tag-column/blob/main/LICENSE",
   "assets": {
   },
   "name": "Categories Tag Column",

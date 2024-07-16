@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 he:
+  theme_metadata:
+    settings:
+      categories_page_column_count: "מספר עמודות ההורה בעמוד"
+      tag_column_count: "מספר העמודות בסעיף התגיות"

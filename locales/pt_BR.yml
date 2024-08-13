@@ -5,3 +5,15 @@
 # https://translate.discourse.org/
 
 pt_BR:
+  theme_metadata:
+    description: "Adiciona uma coluna de etiquetas à sua página /categories"
+    settings:
+      categories_page_column_count: "A quantidade de colunas pai na página"
+      tag_column_count: "A quantidade de colunas na seção de etiquetas"
+      hide_categories_column: "Ative para ocultar as categorias na página de categorias"
+      categories_column: 'em quais colunas as categorias aparecem, aceita valores compatíveis com a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">coluna de grade</a>'
+      categories_row: 'em qual linha as categorias aparecem, aceita valores compatíveis com a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">linha de grade</a>'
+      tags_column: 'em quais colunas as etiquetas aparecem, aceita valores compatíveis com a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">coluna de grade</a>'
+      tags_row: 'em qual linha as etiquetas aparecem, aceita valores compatíveis com a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">linha de grade</a>'
+      topics_column: 'no topo de qual coluna ou novidades os tópicos aparecem, aceita valores compatíveis com a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">coluna de grade</a>'
+      topics_row: 'no topo de qual linha ou novidades os tópicos aparecem, aceita valores compatíveis com a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">linha de grade</a>'

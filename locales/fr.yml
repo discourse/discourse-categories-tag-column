@@ -5,3 +5,15 @@
 # https://translate.discourse.org/
 
 fr:
+  theme_metadata:
+    description: "Ajoute une colonne de balises à votre page /categories"
+    settings:
+      categories_page_column_count: "Le nombre de colonnes parentes sur la page"
+      tag_column_count: "Le nombre de colonnes dans la section des étiquettes"
+      hide_categories_column: "Si vous activez cette option, les catégories seront masquées sur la page des catégories."
+      categories_column: 'dans quelle colonne les catégories apparaissent, accepte les valeurs prises en charge par <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a>'
+      categories_row: 'dans quelles lignes les catégories apparaissent, accepte les valeurs prises en charge par <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a>'
+      tags_column: 'dans quelle colonne les étiquettes apparaissent, accepte les valeurs prises en charge par <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a>'
+      tags_row: 'dans quelles lignes les étiquettes apparaissent, accepte les valeurs prises en charge par <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a>'
+      topics_column: 'dans quelle colonne les sujets populaires ou récents apparaissent, accepte les valeurs prises en charge par <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a>'
+      topics_row: 'dans quelles lignes les sujets populaires ou récents apparaissent, accepte les valeurs prises en charge par <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a>'

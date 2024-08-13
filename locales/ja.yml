@@ -5,3 +5,15 @@
 # https://translate.discourse.org/
 
 ja:
+  theme_metadata:
+    description: "/categories ページにタグ列を追加します"
+    settings:
+      categories_page_column_count: "ページの親列の数"
+      tag_column_count: "タグセクション内の列数"
+      hide_categories_column: "これを有効にすると、カテゴリページのカテゴリが非表示になります"
+      categories_column: 'カテゴリが表示される列。<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a> でサポートされている値を受け入れます'
+      categories_row: 'カテゴリが表示される行。<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a> でサポートされている値を受け入れます'
+      tags_column: 'タグが表示される列。<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a> でサポートされている値を受け入れます'
+      tags_row: 'タグが表示される行。<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a> でサポートされている値を受け入れます'
+      topics_column: 'トップカテゴリまたは最新のカテゴリが表示される列。<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a> でサポートされている値を受け入れます'
+      topics_row: 'トップカテゴリまたは最新のカテゴリが表示される行。<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a> でサポートされている値を受け入れます'

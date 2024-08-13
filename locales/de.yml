@@ -6,14 +6,14 @@
 
 de:
   theme_metadata:
-    description: "Fügt eine Tag-Spalte zu deiner /categories Seite hinzu"
+    description: "Fügt eine Schlagwort-Spalte zu deiner /categories-Seite hinzu"
     settings:
       categories_page_column_count: "Die Anzahl der übergeordneten Spalten auf der Seite"
       tag_column_count: "Die Anzahl der Spalten im Abschnitt „Schlagwörter“"
-      hide_categories_column: "Wenn du dies aktivierst, werden die Kategorien auf der Kategorieseite ausgeblendet."
-      categories_column: 'in welcher Spalte Kategorien erscheinen, akzeptiert Werte, die für <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a> gültig sind.'
-      categories_row: 'in welcher Zeile Kategorien erscheinen, akzeptiert Werte, die für <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a> gültig sind.'
-      tags_column: 'in welcher Spalte Schlagwörter erscheinen, akzeptiert Werte, die für <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a> gültig sind.'
-      tags_row: 'in welcher Zeile Schlagwörter erscheinen, akzeptiert Werte, die für <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a> gültig sind.'
-      topics_column: 'in welcher Spalte angesagte oder aktuelle Themen erscheinen, akzeptiert Werte, die für <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a> gültig sind.'
-      topics_row: 'in welcher Zeile angesagte oder aktuelle Themen erscheinen, akzeptiert Werte, die für <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a> gültig sind.'
+      hide_categories_column: "Wenn du dies aktivierst, werden die Kategorien auf der Kategorieseite ausgeblendet"
+      categories_column: 'in welcher Spalte Kategorien erscheinen, akzeptiert Werte, die für <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a> gültig sind'
+      categories_row: 'in welcher Zeile Kategorien erscheinen, akzeptiert Werte, die für <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a> gültig sind'
+      tags_column: 'in welcher Spalte Schlagwörter erscheinen, akzeptiert Werte, die für <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a> gültig sind'
+      tags_row: 'in welcher Zeile Schlagwörter erscheinen, akzeptiert Werte, die für <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a> gültig sind'
+      topics_column: 'in welcher Spalte angesagte oder aktuelle Themen erscheinen, akzeptiert Werte, die für <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column">grid-column</a> gültig sind'
+      topics_row: 'in welcher Zeile angesagte oder aktuelle Themen erscheinen, akzeptiert Werte, die für <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row">grid-row</a> gültig sind'

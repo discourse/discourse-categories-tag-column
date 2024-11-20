@@ -1,15 +1,15 @@
-{{#conditional-loading-spinner condition=isLoading}}
+{{#conditional-loading-spinner condition=this.isLoading}}
 
-  {{#if sortedTags}}
+  {{#if this.sortedTags}}
     <div class="table-heading">
       Tags
     </div>
     <ul class="categories-tag-list">
-      {{#each sortedTags as |t|}}
+      {{#each this.sortedTags as |t|}}
         <li>{{discourse-tag t.id count=t.count}}</li>
       {{/each}}
     </ul>
-    {{#if moreTags}}
+    {{#if this.moreTags}}
       <div class="more-tags">
         <a href="/tags" class="btn btn-default">{{i18n "more"}}</a>
       </div>

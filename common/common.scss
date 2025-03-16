@@ -23,6 +23,7 @@
   > .column {
     grid-column: 1;
     grid-row: 3;
+
     @media screen and (min-width: 768px) {
       grid-column: #{$topics-column};
       grid-row: #{$topics-row};
@@ -32,10 +33,12 @@
   > .column.categories {
     grid-column: 1;
     grid-row: 1;
+
     @media screen and (min-width: 768px) {
       grid-column: #{$categories-column};
       grid-row: #{$categories-row};
     }
+
     @if $hide-categories-column == "true" {
       display: none;
     }
@@ -44,6 +47,7 @@
   > .tag-column {
     grid-column: 1;
     grid-row: 2;
+
     @media screen and (min-width: 768px) {
       grid-column: #{$tags-column};
       grid-row: #{$tags-row};
@@ -72,10 +76,12 @@
   li {
     display: flex;
     align-items: baseline;
+
     .discourse-tag-count {
       flex: 1 0 auto;
       margin-left: 0.33em;
     }
+
     .discourse-tag {
       flex: 0 1 auto;
       overflow: hidden;

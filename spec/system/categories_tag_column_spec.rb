@@ -2,7 +2,7 @@
 
 require_relative "page_objects/components/categories_tag_column"
 
-RSpec.describe "Categories tag column", type: :system do
+RSpec.describe "Categories tag column" do
   fab!(:tag) { Fabricate(:tag, name: "javascript") }
   fab!(:tag2) { Fabricate(:tag, name: "ruby") }
   fab!(:topic) { Fabricate(:topic, tags: [tag, tag2]) }

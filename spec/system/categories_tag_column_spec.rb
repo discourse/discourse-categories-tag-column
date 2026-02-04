@@ -15,7 +15,7 @@ RSpec.describe "Categories tag column" do
     SiteSetting.desktop_category_page_style = "categories_and_latest_topics"
   end
 
-  it "displays tags with correct links" do
+  it "displays tags by name with correct links" do
     visit("/categories")
 
     expect(tag_column).to be_visible

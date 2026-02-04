@@ -38,7 +38,7 @@ export default class CategoriesTagColumn extends Component {
 
         <ul class="categories-tag-list">
           {{#each this.sortedTags as |t|}}
-            <li>{{discourseTag t.name count=t.count}}</li>
+            <li>{{discourseTag t count=t.count}}</li>
           {{/each}}
         </ul>
 

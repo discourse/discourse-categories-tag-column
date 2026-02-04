@@ -10,7 +10,7 @@ module PageObjects
       end
 
       def has_listed_tag?(tag)
-        has_css?("#{SELECTOR} .discourse-tag", text: tag.name)
+        has_css?("#{SELECTOR} a.discourse-tag[href='#{tag.url}']", text: tag.name)
       end
     end
   end

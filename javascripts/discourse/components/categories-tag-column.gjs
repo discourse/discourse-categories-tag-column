@@ -1,3 +1,4 @@
+/* eslint-disable ember/no-classic-components */
 import Component from "@ember/component";
 import { sort } from "@ember/object/computed";
 import { tagName } from "@ember-decorators/component";
